@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,100,400");
 
 body{
-    background: #fbc73b;
+    background: #fbc73b url(../img/background1.jpeg) no-repeat center center / cover;
 }
 
 .lb-album{
@@ -70,6 +70,14 @@ body{
 }
 
 /*  List style */
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: 0 auto;
+    padding: 0;
+}
 
 ul li{
     list-style: none;
