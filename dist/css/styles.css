@@ -84,17 +84,19 @@ ul li{
     transition: opacity 0.3s linear 1.3s;
 }
 
-.lb-overlay a.lib-close{
+/* Define the 'close button' for when lightbox is shown */
+
+.lb-overlay a.lb-close{
     background: rgba(27, 54, 81, 0.8);
     z-index: 1001;
     color: white;
     position: absolute;
-    top: 43px;
+    top: 40px;
     left: 50%;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    width: 50px;
+    width: 65px;
     height: 25px;
     overflow: hidden;
     margin-left: -25px;
@@ -103,6 +105,8 @@ ul li{
     transition: opacity 0.3s linear 1.2s;
     text-decoration: none;
 }
+
+/* Define the lightbox effect */
 
 .lb-overlay img{
     max-height: 100%;
@@ -122,12 +126,12 @@ ul li{
     animation: scaleDown 1.2s ease-in-out;
 }
 
-.lb-overlay:target a.lib-close,
+.lb-overlay:target a.lb-close,
 .lb-overlay:target > div {
     opacity: 1;
 }
 
-/* Animation */
+/* Animation Definition */
 
 @keyframes scaleDown{
     0%{
