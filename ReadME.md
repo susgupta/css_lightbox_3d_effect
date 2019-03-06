@@ -13,4 +13,4 @@ The application was publised using [GitHub Pages](https://pages.github.com/). Th
 
 Here is link to view the application:
 
-[Sushil G CSS Lightbox 3D Effect](https://susgupta.github.io/css_lightbox_3d_effect/)
+[Sushil G CSS Lightbox 3D Effect](https://susgupta.github.io/css_lightbox_3d_effect/index.html)
