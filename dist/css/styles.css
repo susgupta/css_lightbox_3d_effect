@@ -32,11 +32,11 @@ body{
     border-radius: 2px 2px 2px 2px;
 }
 
-/* The hover effect */
+/* The hover effect for thumbnail */
 .lb-album li > a span{
     position: absolute;
     width: 185px;
-    height: 130px;
+    height: 125px;
     top: 10px;
     left: 10px;
     text-align: center;
